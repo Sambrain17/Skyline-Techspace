@@ -1,0 +1,375 @@
+body{
+    background-color: lightcyan;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container-form{
+
+    width: 50%;
+    background-color: lightblue;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+
+}
+
+
+input[type=text]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 20px;
+    
+    
+}
+
+input[type=text]:focus{
+   
+    border-radius: 15px;
+    border: 1px solid lightgreen;
+    outline: none;
+    
+}
+
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 89, 237);
+        
+}
+
+.user{
+    position: absolute;
+    top: 25%;
+    left: 24%;
+    font-size: 23px;
+
+}
+
+.form-user{
+    position: relative;
+    margin-top: 30px;
+    color: lightblue;
+}
+
+
+/* email styling */
+
+input[type=email]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 21px;
+      
+}
+
+
+
+input[type=email]:focus{
+   
+    border-radius: 15px;
+    border: 1px solid lightgreen;
+    outline: none;
+    
+}
+
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 89, 237);
+        
+}
+
+/* email styling ends here */
+
+
+/* tel styling */
+
+.form-class{
+    margin-top: 30px;
+}
+
+.form-main{
+    padding-bottom: 50px;
+}
+
+
+input[type=tel]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    /* text-indent: 21px; */
+      
+}
+
+
+
+input[type=tel]:focus{
+   
+    border-radius: 15px;
+    border: 1px solid lightgreen;
+    outline: none;
+    
+}
+
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 89, 237);
+        
+}
+
+/* tel styling ends here  */
+
+
+
+/* password styling */
+
+
+input[type=password]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    /* text-indent: 21px; */
+      
+}
+
+
+input[type=password]:focus{
+   
+    border-radius: 15px;
+    border: 1px solid lightgreen;
+    outline: none;
+    
+}
+
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 89, 237);
+        
+}
+
+/* password styling ends here */
+
+
+/* register styling */
+
+.click{
+    background-color: rgba(255, 0, 0, 0.797);
+    padding: 15px 40px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 53%;
+    color: aliceblue;
+    
+
+}
+
+.click:hover{
+    background-color: blue;
+}
+
+/* register styling ends here*/
+
+
+
+/* divider styling */
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+
+}
+
+.divider::before, .divider::after{
+    content: "";
+    padding: 1px;
+    background-color: rgb(205, 237, 237);
+    flex: 1;
+    margin: 10px;
+
+}
+
+.div-bg{
+    background-color: rgb(205, 237, 237);
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(205, 237, 237);
+}
+
+
+/* divider styling ends here*/
+
+
+/* social button styling */
+
+.social{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.social:nth-child(1){
+    background-color: #3b5998;
+   
+}
+
+.social:nth-child(2){
+    background-color: #14171A;
+ 
+}
+
+.social:nth-child(3){
+    background-color: #DB4437;
+
+}
+
+.social:nth-child(1):hover{
+    
+    color: black;
+}
+
+.social:nth-child(2):hover{
+    
+    color: #1DA1F2;
+}
+
+.social:nth-child(3):hover{
+    
+    color: #0F9D58;
+}
+
+/* social button styling ends here*/
+
+/* home styling */
+.home{
+    position: absolute;
+    top:8%;
+    left: 28%;
+    color: rgba(255, 0, 0, 0.797);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.home:hover{
+    color: blue;
+}
+
+/* home styling ends here*/
+
+#terms{
+        
+    margin-top: 30px;
+    
+}
+
+
+
+.login{
+    margin-top: 30px;
+    color: rgb(63, 107, 195);
+}
+
+.login a:hover{
+    color: #b40101c3;
+}
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+
+@media (min-width: 320px) and (max-width: 1024px){
+   
+    .container-form{
+        width: 100%;
+    }
+
+    .social{
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    .container-form p{
+        padding: 20px;
+    }
+
+    input[type=text]{
+
+        width: 80%;
+
+    }
+
+    input[type=email]{
+
+        width: 80%;
+
+    }
+
+    input[type=tel]{
+
+        width: 80%;
+
+    }
+
+    input[type=password]{
+
+        width: 80%;
+
+    }
+
+    .user{
+        position: absolute;
+        top: 25%;
+        left: 9%;
+        font-size: 23px;
+    
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .home{
+        
+        top:8%;
+        left: 7%;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
